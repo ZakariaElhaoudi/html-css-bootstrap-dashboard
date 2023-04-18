@@ -1,0 +1,38 @@
+/* regole generali  */
+
+
+
+
+
+/* regole header  */
+header {
+    background-color: white;
+    height: 100px;
+}
+
+
+/* regole contenuto principale  */
+#central_container {
+    display: flex;
+    height: calc(100vh - 100px);
+}
+
+/* regole main  */
+
+main {
+    max-height: 100%;
+    width: calc(100% - 250px);
+    background-color: blue;
+}
+
+nav {
+    max-height: 100%;
+    width: 250px;
+    background-color: black;
+}
+
+/* debud  */
+
+header{
+    background-color:#181818; ;
+}
