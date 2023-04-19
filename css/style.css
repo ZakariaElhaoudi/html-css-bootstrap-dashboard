@@ -70,7 +70,7 @@ li:hover {
 }
 
 /* regole sidebar responsive  */
-/* media query md in su */
+/* media query md  */
 @media screen and (max-width: 767px) {
     #nav_side_bar {
         width: 70px;
@@ -82,6 +82,21 @@ li:hover {
         overflow-y: auto;
 
 }
+}
+
+/* offscanvas responsive  */
+/* media query md  */
+@media screen and (max-width: 680px) {
+    #offcanvasExample{
+        width: 100%;
+    }
+}
+
+/* media query md  */
+@media screen and (min-width: 767px) {
+    #offcanvasExample{
+        width: 50%;
+    }
 }
 
 
