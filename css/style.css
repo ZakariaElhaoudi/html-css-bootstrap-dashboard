@@ -18,6 +18,15 @@ header nav {
     width: 40px;
 }
 
+#searchBar {
+    width: min-content;
+}
+
+#bellDropdown {
+    right: 0;
+}
+
+
 /* regole contenuto principale  */
 #central_container {
     display: flex;
@@ -29,8 +38,9 @@ header nav {
 main {
     max-height: 100%;
     width: calc(100% - 150px);
-    background-color: blue;
 }
+
+
 
 /* regole side bar  */
 #nav_side_bar {
@@ -48,6 +58,23 @@ main {
     padding: 5px 5px;
     background-color: rgba(128, 128, 128, 0.463);
 }
+
+/* regole sidebar responsive  */
+/* media query md in su */
+@media screen and (max-width: 767px) {
+    #nav_side_bar {
+        width: 70px;
+
+    }
+    main {
+        width: calc(100% - 70px);
+        height: calc(100vh - 70px);
+        overflow: auto;
+
+}
+}
+
+
 
 
 
