@@ -58,10 +58,14 @@ main {
 
 #nav_side_bar a {
     padding: 5px 5px;
+   
 }
 
-#nav_side_bar a:hover {
-    padding: 5px 5px;
+#nav_side_bar #admin:hover {
+    background-color: rgba(128, 128, 128, 0.463);
+}
+
+li:hover {
     background-color: rgba(128, 128, 128, 0.463);
 }
 
