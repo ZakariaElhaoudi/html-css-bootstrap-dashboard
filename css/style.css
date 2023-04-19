@@ -40,6 +40,10 @@ main {
     width: calc(100% - 150px);
 }
 
+#section-classi table img{
+    max-width: 100%;
+    width: 20px;
+}
 
 
 /* regole side bar  */
