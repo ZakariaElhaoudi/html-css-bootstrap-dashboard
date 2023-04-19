@@ -102,8 +102,8 @@
                            <div class="col-12 col-md-4 col-lg-3 order-md-1 text-md-end">
                                 <span class="me-1">Nuovo Studente</span>
                                 <button type="button" class="btn btn-outline-secondary border-white text-white"
-                                data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
-                                aria-controls="offcanvasExample">
+                                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                                    aria-controls="offcanvasExample">
                                     <i class="fa-solid fa-plus fa-lg"></i>
                                 </button>
                             </div>
@@ -372,86 +372,83 @@
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-          <div class="container">
-            <form class="row g-3 needs-validation" novalidate>
-                <div class="col-12 col-md-6">
-                  <label for="validationCustom01" class="form-label">Nome</label>
-                  <input type="text" class="form-control" id="validationCustom01" value="" required>
-                  <div class="valid-feedback">
-                    Looks good!
-                  </div>
-                </div>
-                <div class="col-12 col-md-6">
-                  <label for="validationCustom02" class="form-label">Cognome</label>
-                  <input type="text" class="form-control" id="validationCustom02" value="" required>
-                  <div class="valid-feedback">
-                    Looks good!
-                  </div>
-                </div>
-                <div class="col-12 col-md-6">
-                  <label for="validationCustomUsername" class="form-label">Email</label>
-                  <div class="input-group has-validation">
-                    <span class="input-group-text" id="inputGroupPrepend">@</span>
-                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
-                    <div class="invalid-feedback">
-                      Please choose a username.
+            <div class="container">
+                <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-12 col-md-6">
+                        <label for="validationCustom01" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="validationCustom01" value="" required>
+                        <div class="valid-feedback">
+                        Looks good!
+                        </div>
                     </div>
-                  </div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <label>Password</label>
-                    <input type="password" id="inputPassword5" class="form-control"
-                        aria-describedby="passwordHelpBlock">
-                </div>
-                <div class="col-12">
-                    <label>Indirizzo</label>
-                    <input class="form-control" type="text" placeholder="" aria-label="default input example">
-                </div>
-                <div class="col-12 col-md-5">
-                  <label for="validationCustom03" class="form-label">Citta</label>
-                  <input type="text" class="form-control" id="validationCustom03" required>
-                  <div class="invalid-feedback">
-                    Please provide a valid city.
-                  </div>
-                </div>
-                <div class="col-12 col-md-4">
-                  <label for="validationCustom04" class="form-label">State</label>
-                  <select class="form-select" id="validationCustom04" required>
-                    <option selected>Scegli...</option>
-                    <option>...</option>
-                  </select>
-                  <div class="invalid-feedback">
-                    Please select a valid state.
-                  </div>
-                </div>
-                <div class="col-12 col-md-3">
-                    <label>Cap</label>
-                    <input class="form-control" type="text" placeholder="" aria-label="default input example">
-                </div>
-                <div class="col-12">
-                    <label>Foto</label>
-                    <div class="input-group">
-                        <input type="file" class="form-control" id="inputGroupFile04"
-                            aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                    <div class="col-12 col-md-6">
+                        <label for="validationCustom02" class="form-label">Cognome</label>
+                        <input type="text" class="form-control" id="validationCustom02" value="" required>
+                        <div class="valid-feedback">
+                        Looks good!
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <label for="validationCustomUsername" class="form-label">Email</label>
+                        <div class="input-group has-validation">
+                            <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                            <div class="invalid-feedback">
+                            Please choose a username.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <label>Password</label>
+                        <input type="password" id="inputPassword5" class="form-control"aria-describedby="passwordHelpBlock">
+                    </div>
+                    <div class="col-12">
+                        <label>Indirizzo</label>
+                        <input class="form-control" type="text" placeholder="" aria-label="default input example">
+                    </div>
+                    <div class="col-12 col-md-5">
+                        <label for="validationCustom03" class="form-label">Citta</label>
+                        <input type="text" class="form-control" id="validationCustom03" required>
+                        <div class="invalid-feedback">
+                        Please provide a valid city.
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <label for="validationCustom04" class="form-label">State</label>
+                        <select class="form-select" id="validationCustom04" required>
+                            <option selected>Scegli...</option>
+                            <option>...</option>
+                        </select>
+                        <div class="invalid-feedback">
+                        Please select a valid state.
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <label>Cap</label>
+                        <input class="form-control" type="text" placeholder="" aria-label="default input example">
+                    </div>
+                    <div class="col-12">
+                        <label>Foto</label>
+                        <div class="input-group">
+                            <input type="file" class="form-control" id="inputGroupFile04"aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label" for="invalidCheck">
+                            Seleziona per proseguire
+                            </label>
+                            <div class="invalid-feedback">
+                                You must agree before submitting.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-primary" type="submit">Salva </button>
+                        <button class="btn btn-warning" type="submit">Svuota</button>
                     </div>
                 </div>
-                
-                <div class="col-12">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                    <label class="form-check-label" for="invalidCheck">
-                      Seleziona per proseguire
-                    </label>
-                    <div class="invalid-feedback">
-                      You must agree before submitting.
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <button class="btn btn-primary" type="submit">Salva </button>
-                  <button class="btn btn-warning" type="submit">Svuota</button>
-                </div>
-            </div>
             
               
             
