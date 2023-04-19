@@ -30,14 +30,16 @@ header nav {
 /* regole contenuto principale  */
 #central_container {
     display: flex;
-    height: calc(100vh - 70px);
+    
 }
 
 /* regole main  */
 
 main {
     max-height: 100%;
-    width: calc(100% - 150px);
+    width: calc(100% - 100px);
+    height: calc(100vh - 70px);
+    overflow-y: auto;
 }
 
 #section-classi table img{
@@ -48,7 +50,7 @@ main {
 
 /* regole side bar  */
 #nav_side_bar {
-    max-height: 100%;
+    max-height: calc(100vh - 70px);
     width: 150px;
     background-image: url(../img/sidebar-bg.png);
     background-color: #121d30;
@@ -73,7 +75,7 @@ main {
     main {
         width: calc(100% - 70px);
         height: calc(100vh - 70px);
-        overflow: auto;
+        overflow-y: auto;
 
 }
 }
